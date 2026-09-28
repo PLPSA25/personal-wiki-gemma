@@ -17,7 +17,7 @@ where a result was bad, the README says so.**
 ## Where to find things (grading entry points)
 | Requirement | Where |
 |---|---|
-| CLI and harness code | [`src/wiki/`](src/wiki) (2,200 lines, 19 modules), tests in [`tests/`](tests) (321 tests) |
+| CLI and harness code | [`src/wiki/`](src/wiki) (2,250 lines, 20 modules), tests in [`tests/`](tests) (326 tests) |
 | Instructions and personality (explicit files) | [`prompts/persona.md`](prompts/persona.md) (chat), [`prompts/wiki-instructions.md`](prompts/wiki-instructions.md) (ask), [`prompts/verify-instructions.md`](prompts/verify-instructions.md), [`prompts/answerable-instructions.md`](prompts/answerable-instructions.md), [`prompts/ingest-instructions.md`](prompts/ingest-instructions.md) |
 | Originals (unchanged) | [`vault/raw/`](vault/raw), fingerprints in [`vault/Source Catalog.md`](vault/Source%20Catalog.md) |
 | Wiki (open `vault/` in Obsidian) | [`vault/index.md`](vault/index.md), [`vault/wiki/`](vault/wiki) |
@@ -96,7 +96,7 @@ No embedding model and no other download is needed. After this, nothing requires
 .venv\Scripts\wiki.exe approve --all                     # after reviewing the notes in Obsidian
 .venv\Scripts\python.exe evals\run_evals.py --label my-run          # the four ask tests, saves evidence cards
 .venv\Scripts\python.exe evals\run_mode_checks.py --label my-run    # chat / search / boundary checks
-.venv\Scripts\python.exe -m pytest                                  # 321 unit tests, no Ollama needed (~16 s)
+.venv\Scripts\python.exe -m pytest                                  # 326 unit tests, no Ollama needed (~16 s)
 ```
 Errors are one plain line and a non-zero exit code, never a stack trace (model server stopped, model missing, no index, missing file,
 non-local model address). `wiki ask` prints "(`wiki search` works without the model...)" when the model is unavailable.
@@ -228,6 +228,6 @@ read time roughly in half. Embeddings could improve retrieval of reworded questi
 ## Repository layout
 ```
 src/wiki/     the CLI and harness          prompts/   all instruction files        vault/     raw/ (originals), wiki/ (notes), index.md, Source Catalog.md
-tests/        321 pytest tests             evals/     answer key, runners, plan    evidence/  results, cards, transcripts, screenshots
+tests/        326 pytest tests             evals/     answer key, runners, plan    evidence/  results, cards, transcripts, screenshots
 demo/         offline demo script          wiki-plan.toml   the 27 pages and their sources     data/  (git-ignored) index, logs, backups
 ```
