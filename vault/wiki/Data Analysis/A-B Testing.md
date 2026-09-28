@@ -1,7 +1,7 @@
 ---
 title: A-B Testing
 topic: Data Analysis
-status: draft
+status: reviewed
 description: A-B testing involves randomizing treatment and control status to determine causation.
 source_files:
 - Data and Decisions Lectures.md
@@ -12,7 +12,7 @@ source_passages:
 generated_by: gemma4:e2b (Q4_K_M)
 generated_at: '2026-09-27'
 fingerprint: 3606d7df24a7aae29388ecba171357aa4fbde9a513e1d7aa15638a9a325ba507
-body_sha256: ce299a43a27192e905dcfc62903353ac4169fd712e5dcce407c06ae7cf6e3a58
+body_sha256: a4c7c29f4eb6994a416d41541b77e6cb63852e9427cb84d8189d797be613e3e8
 ---
 
 # A-B Testing

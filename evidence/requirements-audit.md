@@ -32,7 +32,7 @@ Status: **Done** = met and evidenced; **Partly** = met with a stated limit or wi
 | Connect related pages with links; keep `index.md` current so a reader and retrieval can find them | Done | related-notes sections; `index.md`; two weak links documented and left |
 | Split long text into passages keeping path and page/section; explain how much text goes to Gemma | Done | `chunk.py`; README "Context management" |
 | Check extraction quality of non-text sources; any parsing needed offline runs locally | Done | `evidence/extraction-check.md` (text identical to the file XML; table structure flattened, stated as a limit); no PDF support, so no PDF check applies |
-| Review generated summaries against the originals; correct mistakes in the wiki, not the evidence | Partly | 5 wrong source references found and corrected, 2 weak links left (`evidence/review/`); the Group Pricing error was found by me, the systematic check of all 27 notes was done with Claude's help, and no note was marked `reviewed` (`wiki approve` not run) |
+| Review generated summaries against the originals; correct mistakes in the wiki, not the evidence | Partly | 5 wrong source references found and corrected, 2 weak links left (`evidence/review/`); I reviewed 6 of 27 notes myself and marked them `reviewed` (Group Pricing error found by me); the systematic check of all 27 notes was done with Claude's help |
 | Short descriptive file names (2-6 words), first heading matches, no IDs/hashes/timestamps/chunk numbers | Done | validated by `plan.py`; checked for all 27 notes; IDs in properties |
 | Topic folders; code, logs, chunks, test answers outside the vault | Done | `Economics/`, `Data Analysis/`, `Cases/`; `data/`, `evals/`, `evidence/` are outside `vault/` |
 | Real internal links with reasons; one coherent subject per note; merge overlapping notes | Partly | concept-first design; every note has 1-4 links with a stated reason; a few reasons are weak (documented) |
@@ -78,5 +78,5 @@ Status: **Done** = met and evidenced; **Partly** = met with a stated limit or wi
 ## What is still open
 1. ~~Terminal recording~~ provided (29 s, condensed). Optional: screenshots or a longer recording if a grader needs to see each command run in real time.
 2. ~~Two Obsidian screenshots~~ provided (`source-catalog.png`, `trace.png`). Optional: one more screenshot of the landing in `vault/raw/Economics Lectures.md` after clicking a Sources link.
-3. All notes remain `status: draft` (`wiki approve` was not run), and the assessments and the full-wiki review were written with Claude's help, as stated in the README.
+3. 21 of 27 notes remain `status: draft` (6 are `reviewed` by me); the assessments and the full-wiki check were written with Claude's help, as stated in the README.
 4. **Submit the URL** in the course portal.

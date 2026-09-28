@@ -1,6 +1,20 @@
 # Wiki review (all 27 notes), done with Claude's help
 
-**Who did what:** I found the first error (Group Pricing) myself while reading the note in Obsidian. The systematic check below (all 27 notes, all 153 key points) was done by Claude, an AI assistant, at my request. I did not run `wiki approve`, so all notes keep `status: draft`.
+**Who did what:** I found the first error (Group Pricing) myself while reading the note in Obsidian. The systematic check below (all 27 notes, all 153 key points) was done by Claude, an AI assistant, at my request. I reviewed six notes myself against their sources and marked them `reviewed` with `wiki approve`; the other 21 keep `status: draft`.
+
+## Notes I reviewed myself (marked `status: reviewed`)
+I opened each note in Obsidian, followed source links back to the original text, read the related-note reasons, and marked the note with `wiki approve` on 2026-09-28.
+
+| Note | Result of my review |
+|---|---|
+| Group Pricing | found a wrong source link and two off-topic points; corrected (see [group-pricing-review.md](group-pricing-review.md)) |
+| Menu Pricing | no changes identified |
+| Sunk Costs | no changes identified |
+| Linear Regression | no changes identified (its one wrong section link had already been repaired by the script below) |
+| Type I and Type II Errors | no changes identified |
+| A-B Testing | no changes identified (its one wrong section link had already been repaired by the script below) |
+
+That is 6 of 27 notes (22%). The other 21 were checked only by the systematic method below.
 
 ## Method
 1. **Structure (automatic, also a unit test):** each note's first heading equals its file name; every `[[link]]` resolves to an existing note or original; no self-links; every note has 1-4 related notes; every original is cited by at least one note. Result: all 27 pass.

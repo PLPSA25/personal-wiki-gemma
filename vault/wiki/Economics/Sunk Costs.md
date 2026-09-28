@@ -1,7 +1,7 @@
 ---
 title: Sunk Costs
 topic: Economics
-status: draft
+status: reviewed
 description: Sunk costs are costs that have already been incurred and cannot be changed, and they should be irrelevant when making future decisions.
 source_files:
 - Economics Lectures.md

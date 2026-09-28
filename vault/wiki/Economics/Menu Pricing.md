@@ -1,7 +1,7 @@
 ---
 title: Menu Pricing
 topic: Economics
-status: draft
+status: reviewed
 description: Menu pricing involves offering buyers a single menu of options, allowing them to self-select based on their preferences.
 source_files:
 - Economics Lectures.md

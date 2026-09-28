@@ -1,7 +1,7 @@
 ---
 title: Linear Regression
 topic: Data Analysis
-status: draft
+status: reviewed
 description: Linear regression uses ordinary least squares to find the line that minimizes the sum of squared residuals between the data and the fitted line.
 source_files:
 - AuraTech Case.docx
@@ -14,7 +14,7 @@ source_passages:
 generated_by: gemma4:e2b (Q4_K_M)
 generated_at: '2026-09-27'
 fingerprint: ae87528149f6f9c584864a91200c049654abe3bd7be8602c8539d198d9baa7db
-body_sha256: f128fb9c0c8a12128c046f3b534bada1b4e587fc8f7a2a6ebdcbf31d5ca06add
+body_sha256: c53c677efacfcf4e445a5f5fd9491c89e70a3f46f241faad62d33ca06bd053f9
 ---
 
 # Linear Regression

@@ -1,7 +1,7 @@
 ---
 title: Type I and Type II Errors
 topic: Data Analysis
-status: draft
+status: reviewed
 description: Type I and Type II errors occur when making decisions based on sample data, where a Type I error is rejecting a true null hypothesis, and a Type II error is failing to reject a...
 source_files:
 - Data and Decisions Lectures.md

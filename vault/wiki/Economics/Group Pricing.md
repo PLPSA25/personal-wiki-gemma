@@ -1,7 +1,7 @@
 ---
 title: Group Pricing
 topic: Economics
-status: draft
+status: reviewed
 description: Group pricing is a form of price discrimination where different groups face different prices for the same product.
 source_files:
 - Economics Lectures.md
@@ -13,7 +13,7 @@ source_passages:
 generated_by: gemma4:e2b (Q4_K_M)
 generated_at: '2026-09-27'
 fingerprint: a353cec6ef0f543f7963470a68ea5ca7e4e2373402f3447de78da9e3891fd069
-body_sha256: 2ce5f3855a919df1280bab433dbb36fa43b6f7b65560fb4a34e545d01ccbfe72
+body_sha256: ec4d215ee418090c2b6c0e43bf5fab4a94a9ee53bbec8c8a8c7d6497dfb87add
 ---
 
 # Group Pricing
