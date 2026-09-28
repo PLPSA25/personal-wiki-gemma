@@ -42,7 +42,7 @@ Ask response: about 10-20 s (prompt of ~2,000 tokens on CPU plus a short answer)
 ---
 ## Addendum, 2026-09-28: changes made after these expectations were written (results are NOT edited into the sections above)
 - **Sources:** the Uber case document was removed from `vault/raw/` before publishing because its last line contained a local file path with the
-  student's Windows user name. The wiki now has 9 sources (2 lecture summaries + 7 own documents), 114 passages (was 120) and 27 notes.
+  my Windows user name. The wiki now has 9 sources (2 lecture summaries + 7 own documents), 114 passages (was 120) and 27 notes.
   The retrieval predictions above were written for the 10-source index; the four tests were rerun on the final index (`evidence/ask-tests/run-6-final-index`).
 - **Timing prediction was wrong:** "10-20 s per ask answer" assumed a cached prompt. Measured cold/novel questions take 105-120 s end to end on this
   machine with other apps open (answer about 80 s, verification 24-35 s). See the README.

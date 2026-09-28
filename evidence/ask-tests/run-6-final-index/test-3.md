@@ -80,7 +80,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and the .docx.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: good.** Group Pricing.docx at ranks 1 and 3, Lecture 6 at rank 2 (unchanged from earlier runs).
 **Answer: supported and more complete than earlier runs.** The three conditions come from [S2] (Lecture 6). The Netflix mapping now covers all three: identification through account and subscription history [S3]; charging different prices, because Netflix offers a lower price to former subscribers [S1, S3]; and arbitrage being difficult because the offer is tied to an account [S3]. Every statement appears in the cited passages. The "charging different prices" point was the one earlier runs (1 to 5) left out.

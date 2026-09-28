@@ -75,6 +75,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Correct; the three conditions come from [S2] and the Netflix facts from [S1] and [S3]. Same omission as before (the 'separate' condition is not mapped explicitly). Pass.

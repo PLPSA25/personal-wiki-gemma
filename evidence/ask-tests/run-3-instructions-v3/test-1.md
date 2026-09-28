@@ -78,6 +78,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Correct, clean format, cites S1 which contains 1,112. Pass.

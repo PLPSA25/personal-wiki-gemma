@@ -1,4 +1,4 @@
-# Wiki review checklist (for the student)
+# Wiki review checklist
 
 The assignment says generated notes must be **reviewed against the originals**, and that mistakes are corrected in the wiki (never in `raw/`).
 Open `vault/` as the vault in Obsidian. Work through the 27 notes; after checking a note, run `wiki approve "<Title>"` (or `wiki approve --all` when done).
@@ -24,4 +24,4 @@ Obsidian screenshots to take (README needs them): (1) an open note showing its h
 (2) `index.md` (or the file explorer showing the topic folders); (3) the graph view with the filter `path:wiki/` and Attachments turned off, zoomed until labels are readable.
 Also click one link from a note to a related note and back to its original in `raw/` (and check `Source Catalog.md`).
 
-**Update 2026-09-28:** the spot-check of the lecture summaries was done by the student and all items matched (see evidence/review/lecture-summary-spot-check.md).
+**Update 2026-09-28:** the spot-check of the lecture summaries was done by me and all items matched (see evidence/review/lecture-summary-spot-check.md).

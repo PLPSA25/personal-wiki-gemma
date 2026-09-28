@@ -79,6 +79,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 **Regression.** The needed Lecture 5 passage was retrieved (rank 4) and supports the answer, but the model replied 'insufficient evidence' because the passage does not use the question's wording. Instruction version 2 made the model over-cautious. Recorded as a failure.

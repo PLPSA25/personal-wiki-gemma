@@ -81,6 +81,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Correct and supported by [S4]. Verification YES. Same garbled first word. Pass with a wording defect.

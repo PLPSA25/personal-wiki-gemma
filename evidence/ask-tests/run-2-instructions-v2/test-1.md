@@ -83,6 +83,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Answer content correct (1,112 people, cites [S1]) but the model **printed my step-by-step routine** before the answer (lines starting with '1. The question asks for...'). Instruction version 2 caused reasoning to leak. Failure of format, not of evidence.

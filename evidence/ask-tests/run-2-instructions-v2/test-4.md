@@ -72,6 +72,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Correct behaviour (insufficient evidence) but the refusal added a wrong claim: 'a 40% cumulative final exam [S3]' attributed to MBA 201A (40% is the Data and Decisions weight). A refusal should carry no claims of its own; the harness was changed so it never shows model-written text with a refusal (run 3).

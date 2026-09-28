@@ -80,9 +80,9 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Offline run (internet disconnected, proven at the start of `evidence/offline-demo/stage2-20260927-225204.txt`). Draft assessment by Claude; to be confirmed by the student. The answer is identical to the final-index run (`run-6-final-index`), so its assessment applies:
+Offline run (internet disconnected, proven at the start of `evidence/offline-demo/stage2-20260927-225204.txt`). Assessment written with Claude's help. The answer is identical to the final-index run (`run-6-final-index`), so its assessment applies:
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and documents.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: good.** The passage with the answer was rank 1.
 **Answer: correct and supported.** [S1] (Data and Decisions Lectures.md, Lecture 5) says a plus-or-minus 3 percentage point poll needs 1/(0.03 squared) = 1,112 people. The answer says 1,112 and cites S1. Grammar slip ("1,112 people are needed") only.

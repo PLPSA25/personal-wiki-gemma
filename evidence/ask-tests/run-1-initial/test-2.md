@@ -80,7 +80,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passage; to be confirmed by the student against the slides.
+Assessment written with Claude's help after reading the cited passage.
 
 **Retrieval: partial.** The needed passage (Lecture 5, marginal revenue) was rank 4; ranks 1, 2 and 5 were Lecture 3 (the price-taker rule). It was still inside the top 5, so the model could use it. This matches the prediction written before the run.
 **Answer: substantively correct and supported.** [S4] says an extra unit cuts the price on all units, so marginal revenue is below price and a monopolist produces less. The answer says the same and cites S4.

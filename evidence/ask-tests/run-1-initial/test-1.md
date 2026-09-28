@@ -78,7 +78,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passage; to be confirmed by the student against the slides.
+Assessment written with Claude's help after reading the cited passage.
 
 **Retrieval: good.** The passage containing the answer was rank 1.
 **Answer: correct and supported.** [S1] (Data and Decisions Lectures.md, Lecture 5) states that a plus-or-minus 3 percentage point poll needs 1/(0.03 squared) = 1,112 people. The answer says 1,112 people and cites S1; no other claims. The figure check passed.

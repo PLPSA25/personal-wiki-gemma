@@ -81,7 +81,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and documents.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: partial.** The needed passage (Lecture 5, marginal revenue) was rank 4, below two price-taker passages from Lecture 3. It was still in the top 5. This matches the prediction written before the run.
 **Answer: correct and supported, with a wording defect.** [S4] says an extra unit cuts the price on all units, so marginal revenue is below price and the monopolist produces less. The answer says this and cites S4. The first word is garbled ("A monopolist't just keep producing"), a model artefact that appeared in every run; it does not change the meaning. The answer does not spell out the rule MR = MC that S4 states.

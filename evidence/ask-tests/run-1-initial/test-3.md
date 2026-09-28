@@ -77,7 +77,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and the .docx.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: good.** Both expected sources are in the top 5 (Group Pricing.docx at ranks 1 and 3, Lecture 6 at rank 2).
 **Answer: supported, but incomplete.** The three conditions (identify, separate, prevent arbitrage) come from [S2] (Lecture 6) and are correct. For Netflix, [S3] (Group Pricing.docx) does say identification is through account and subscription history and that arbitrage is hard because the offer is tied to an account, and the answer reports exactly that. It never says how Netflix satisfies the second condition (separate: it offers former subscribers a lower price than current ones), which the document also states. No invented claims.

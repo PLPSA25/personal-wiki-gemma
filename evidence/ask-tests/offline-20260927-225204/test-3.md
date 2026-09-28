@@ -75,7 +75,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Offline run (internet disconnected, proven at the start of `evidence/offline-demo/stage2-20260927-225204.txt`). Draft assessment by Claude; to be confirmed by the student. The answer differs in wording from the final-index run.
+Offline run (internet disconnected, proven at the start of `evidence/offline-demo/stage2-20260927-225204.txt`). Assessment written with Claude's help. The answer differs in wording from the final-index run.
 
 **Retrieval: good** (Group Pricing.docx at ranks 1 and 3, Lecture 6 at rank 2).
 **Answer: correct and supported, with the omission seen in runs 1-5.** The three conditions come from [S2]; the Netflix statements come from [S1] and [S3] (divides customers into former and current subscribers; identifies them through account and subscription history; arbitrage is hard because the offer is tied to an account) and all appear in those passages. It does not map the second condition (separate: Netflix offers former subscribers a lower price); the run-6 answer did. Citation check: ok.

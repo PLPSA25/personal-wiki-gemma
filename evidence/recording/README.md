@@ -1,8 +1,8 @@
 # Recording of the offline run
 
-`Offline recording.mp4` (29 seconds, 38.9 MB) is a screen recording of the PowerShell window made by the student during the offline demonstration (internet disconnected).
-By the student's description it covers all three stages of `demo/offline-demo.ps1` (ingest and search; the four ask-mode tests; the chat / search / boundary checks) in condensed form:
-29 seconds cannot show a run that takes about 12 minutes in real time, so it is a shortened or sped-up view. This description was given by the student and has not been verified by the assistant.
+`Offline recording.mp4` (29 seconds, 38.9 MB) is a screen recording of the PowerShell window made by me during the offline demonstration (internet disconnected).
+By my description it covers all three stages of `demo/offline-demo.ps1` (ingest and search; the four ask-mode tests; the chat / search / boundary checks) in condensed form:
+29 seconds cannot show a run that takes about 12 minutes in real time, so it is a shortened or sped-up view. This description is mine; the assistant that helped build the project cannot view video and did not check it.
 
 The complete, unedited output of the same stages is in the text transcripts, each starting with the proof that the internet is unreachable (`OFFLINE CONFIRMED`):
 - [stage 1](../offline-demo/stage1-20260927-222845.txt): `wiki --help`, ingestion of a source (twice), search

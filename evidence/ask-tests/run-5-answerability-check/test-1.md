@@ -80,7 +80,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and documents.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: good.** The passage with the answer was rank 1.
 **Answer: correct and supported.** [S1] (Data and Decisions Lectures.md, Lecture 5) says a plus-or-minus 3 percentage point poll needs 1/(0.03 squared) = 1,112 people. The answer says 1,112 and cites S1. Grammar slip ("1,112 people are needed") only.

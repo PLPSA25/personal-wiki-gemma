@@ -73,7 +73,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the retrieved passages; to be confirmed by the student.
+Assessment written with Claude's help after reading the retrieved passages.
 
 **Retrieval: as predicted.** The sources contain no exam date. Retrieval returned passages that mention the final exam's weight, which is the trap this test is built to set.
 **Answer: FAILURE.** The expected behaviour was an explicit statement that the evidence is insufficient. Instead the model answered "The final exam for the MBA 201A is 40% of the grade [S3]". This is wrong in three ways: (1) it answers a different question (the grade weight, not the date); (2) 40% is the Data and Decisions final exam weight (MBA 200S); the Economics course (MBA 201A) says 20%; (3) the cited passage [S3] (Economics, Lecture 1) says 20% and contains no 40%.

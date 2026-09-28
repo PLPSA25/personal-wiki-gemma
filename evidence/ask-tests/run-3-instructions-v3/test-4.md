@@ -73,6 +73,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 **FAILURE, and the safety net did not catch it.** The model answered 'The final exam for MBA 201A is 40% of the grade [S2]'. S2 is the Data and Decisions passage, which does contain 40%, so the citation check returned OK. The answer is wrong twice: it gives a weight for a 'when' question, and 40% belongs to MBA 200S, not MBA 201A. This is the case that motivated the answerability check (see replay-run3-draft).

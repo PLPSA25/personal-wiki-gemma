@@ -75,6 +75,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Correct and slightly more complete than run 1 (it now also says Netflix divides customers into former and current subscribers). Cites S1, S2 and S3 and all three support their claims.

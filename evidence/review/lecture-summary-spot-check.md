@@ -1,7 +1,7 @@
 # Spot-check of the lecture summaries against the original slides
 
-Performed by the **student** on 2026-09-28, comparing `vault/raw/Economics Lectures.md` and `vault/raw/Data and Decisions Lectures.md` with the course slides.
-Result reported by the student: **all items matched.**
+Performed by **me** on 2026-09-28, comparing `vault/raw/Economics Lectures.md` and `vault/raw/Data and Decisions Lectures.md` with the course slides.
+Result: **all items matched.**
 
 | Slides | Item | Summary states | Result |
 |---|---|---|---|

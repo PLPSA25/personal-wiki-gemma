@@ -76,6 +76,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude; to be confirmed by the student. See ../README.md for the full change history.
+Assessment written with Claude's help. See ../README.md for the full change history.
 
 Insufficient evidence shown, as expected. The draft ('40% of the grade for the MBA 201A course ... [S3]') was withheld by the **figure check** (40% is not in the cited Economics passage), not by the new verifier. Because the verifier was not exercised here, it was tested separately: shown the run-3 draft it said YES (it was anchored by the matching number), which led to the answerability check in run 5.

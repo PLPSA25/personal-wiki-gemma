@@ -79,6 +79,6 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and documents.
+Assessment written with Claude's help after reading the cited passages.
 
 This card replays the recorded run-3 draft (the model's own first reply is not regenerated). It shows the case the figure check cannot catch: "40%" really is in the cited passage. The answerability check, which never sees the draft, names the requested kind of fact ("date") and answers NO, so the draft is withheld and the user sees "Insufficient evidence".

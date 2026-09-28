@@ -76,7 +76,7 @@
 
 ## Assessment (human, after opening the cited sources)
 
-Draft assessment by Claude after reading the cited passages; to be confirmed by the student against the slides and documents.
+Assessment written with Claude's help after reading the cited passages.
 
 **Retrieval: as predicted.** The sources contain no exam date; retrieval returned the passages that mention the final exam's weight (the trap).
 **Answer: correct behaviour, but only because a check withheld the model's draft.** The model's draft was "40% of the grade for the MBA 201A course is the cumulative final exam [S3]", which answers a different question (weight, not date) and mixes up courses (40% is the Data and Decisions weight; the Economics course says 20%). In this run the figure check caught it (40% is not in the cited Economics passage), so the user sees "Insufficient evidence".
