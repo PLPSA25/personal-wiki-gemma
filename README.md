@@ -27,7 +27,11 @@ where a result was bad, the README says so.**
 | Chat / search / boundary checks | [`evidence/mode-checks/README.md`](evidence/mode-checks/README.md) |
 | Ingestion timings, memory, re-ingest | [`evidence/ingest/README.md`](evidence/ingest/README.md) |
 | Device and first measurements | [`evidence/baseline-measurements.md`](evidence/baseline-measurements.md) |
-| Offline demonstration | [`demo/offline-demo.ps1`](demo/offline-demo.ps1) and the transcripts in [`evidence/offline-demo/`](evidence/offline-demo) |
+| Re-ingestion without duplicates (a source is changed: only its note is regenerated) | [`evidence/ingest/reingest-demo.txt`](evidence/ingest/reingest-demo.txt) |
+| Search works with the model server stopped | [`evidence/mode-checks/search-without-model.txt`](evidence/mode-checks/search-without-model.txt) |
+| Extraction quality of the Word files | [`evidence/extraction-check.md`](evidence/extraction-check.md) |
+| Requirement-by-requirement audit against the assignment | [`evidence/requirements-audit.md`](evidence/requirements-audit.md) |
+| Offline demonstration | recording [`evidence/recording/Offline recording.mp4`](evidence/recording/Offline%20recording.mp4) (29 s, condensed; see its [README](evidence/recording/README.md)), script [`demo/offline-demo.ps1`](demo/offline-demo.ps1), full transcripts in [`evidence/offline-demo/`](evidence/offline-demo) |
 | Obsidian screenshots | [`evidence/screenshots/`](evidence/screenshots) (see [below](#obsidian-screenshots)) |
 
 ## Purpose and sources
@@ -192,6 +196,8 @@ point with no notes search, no citations and no refusal; a drafted plan followed
 | 2 | the four ask-mode tests | [stage2](evidence/offline-demo/stage2-20260927-225204.txt), cards in [`ask-tests/offline-20260927-225204`](evidence/ask-tests/offline-20260927-225204/summary.md) | 4/4 pass in 3 min 52 s |
 | 3 | chat capability questions, follow-up, notes turn, search-only, and the chat-claim-is-not-evidence boundary; a scripted chat; memory | [stage3](evidence/offline-demo/stage3-20260927-225650.txt), [`mode-checks/offline-20260927-225650`](evidence/mode-checks/offline-20260927-225650/transcript.md) | 6/6 pass |
 
+A 29-second screen recording of the PowerShell window made during the offline run is in [`evidence/recording/`](evidence/recording/README.md) (condensed by the student; the full output is in the transcripts above).
+
 The demonstration took four attempts (a script bug, an unexplained laptop shutdown, then a 5/6 mode-check result that exposed a wrong claim by the assistant); all are recorded in [evidence/offline-demo/README.md](evidence/offline-demo/README.md) and [evidence/mode-checks/README.md](evidence/mode-checks/README.md).
 
 ### Obsidian screenshots
@@ -199,7 +205,8 @@ Open `vault/` itself as the vault. Filter used for the graph: `path:wiki/` with 
 * Open note with source references and related links: `evidence/screenshots/note.png`
 * Page list / index: `evidence/screenshots/index.png`
 * Graph view: `evidence/screenshots/graph.png`
-* Trace: `Group Pricing` -> related note `Menu Pricing`... -> its `## Sources` link -> `raw/` original; and `Source Catalog.md`.
+* Source catalog: `evidence/screenshots/source-catalog.png` ([`vault/Source Catalog.md`](vault/Source%20Catalog.md): each original, what it is, its SHA-256 and the notes that cite it).
+* Trace from a note to a related note and back to the original evidence: `evidence/screenshots/trace.png`. The path: open `Group Pricing` -> its related note `Two-Part Tariffs` ("Two-part tariffs price at marginal cost and take the surplus as a fee, limited by arbitrage and uncertainty") -> its `## Sources` link `Economics Lectures - Lecture 5 (lines 215-224)` -> the original passage in `vault/raw/Economics Lectures.md`, whose SHA-256 is in the catalog.
 
 ## Reflection: one real limitation and one improvement
 **Limitation.** Correctness against a *near miss* is the hard case for a 5B model. Asked for a date, it will offer a grade weight; asked for "the MBA 201A" weight, it can take the

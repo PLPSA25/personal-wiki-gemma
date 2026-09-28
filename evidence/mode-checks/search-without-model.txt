@@ -1,0 +1,28 @@
+﻿Search mode with the local model server STOPPED (evidence for: 'search should work without the language model running')
+Date: 2026-09-27 23:17:26
+Ollama / llama-server processes running: 0
+Anything listening on 127.0.0.1:11434 (Ollama's port): False
+
+> wiki search "margin of error poll" --limit 2
+Search (local index, no model): "margin of error poll" -> 2 passage(s)
+
+[1] Data and Decisions Lectures.md > Lecture 5: Confidence Intervals and Hypothesis Testing
+    Data and Decisions Lectures.md#21, lines 183-187, score 7.36
+    **Margin of error.** The margin of error (ME) is an informal 95% interval that replaces the t value by 2: ME = 2 x standard error. The
+    sample size needed for a target ME is n = 4 sigma squared over ME squared. For a proportion (variable equal to 0 or 1 with probability
+    p) the standard deviation is the square root of p(1 - p), largest at p = 1/2 (0.5), so a conservative n = 1 over ME squared; a
+    plus-or-minus 3 percentage point poll needs 1/(0.03 squared) = 1,112 people. Gallup-style reports such as 46% approval with a margin of
+    error of 3 points use this idea.
+
+[2] Data and Decisions Lectures.md > Lecture 3: Sampling Bias
+    Data and Decisions Lectures.md#11, lines 90-94, score 5.73
+    **Eliminating bias.** The best way to get a representative sample is a simple random sample (SRS): by design any characteristic in the
+    population, including unobservables, is uncorrelated with being included, so on average the sample mimics its sampling frame. The
+    lecture asks whether various procedures give representative samples, for example asking your five closest friends, an online poll on
+    a party's website, a Twitter poll from your own account, exit interviews at a randomly chosen polling station, a mayoral election
+    survey with 15% nonresponse (Kendall, Nannicini and Trebbi), a text poll of San Francisco mobile phones, and landline calls.
+
+
+> wiki ask "What is opportunity cost?"    (needs the model, so it must fail with a clear message)
+Asking gemma4:e2b locally (this can take a few seconds)...
+wiki: Cannot reach the local model server at http://127.0.0.1:11434. Start it with: ollama serve (`wiki search` works without the model if you only need the passages.)

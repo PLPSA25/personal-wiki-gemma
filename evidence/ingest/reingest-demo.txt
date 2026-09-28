@@ -1,0 +1,34 @@
+
+$ wiki ingest   # 1. first ingest of two sources
+[1/2] Sunk Costs: written - 1 passages, 5 key points, 0 links (35 s)
+[2/2] Menu Pricing: written - 2 passages, 5 key points, 0 links (31 s)
+    dropped from 'Sunk Costs': related link not in the plan: 'Sunk Cost Notes.md'
+    dropped from 'Menu Pricing': related link not in the plan: 'Menu Pricing Notes'
+Done in 66 s: 2 written. Indexed 3 passages. Updated <scratch>\vault\index.md and the Source Catalog.
+Ingesting 2 notes with gemma4:e2b locally. This takes a while on a CPU; notes that are already up to date are skipped.
+(67 s)
+
+files in the wiki after run 1: ['Source Catalog.md', 'index.md', 'wiki/Economics/Menu Pricing.md', 'wiki/Economics/Sunk Costs.md']
+
+$ wiki ingest   # 2. same sources again
+[1/2] Sunk Costs: up to date (0 s)
+[2/2] Menu Pricing: up to date (0 s)
+Done in 0 s: 2 up to date. Indexed 3 passages. Updated <scratch>\vault\index.md and the Source Catalog.
+Ingesting 2 notes with gemma4:e2b locally. This takes a while on a CPU; notes that are already up to date are skipped.
+(0 s)
+
+files in the wiki after run 2: ['Source Catalog.md', 'index.md', 'wiki/Economics/Menu Pricing.md', 'wiki/Economics/Sunk Costs.md']
+same file list: True | fingerprints unchanged: True
+
+$ wiki ingest   # 3. one source changed (an extra sentence added to Menu Pricing Notes.md)
+[1/2] Sunk Costs: up to date (0 s)
+[2/2] Menu Pricing: written - 2 passages, 5 key points, 0 links (15 s)
+    dropped from 'Menu Pricing': related link not in the plan: 'Menu Pricing Notes'
+Done in 15 s: 1 up to date, 1 written. Indexed 3 passages. Updated <scratch>\vault\index.md and the Source Catalog.
+Ingesting 2 notes with gemma4:e2b locally. This takes a while on a CPU; notes that are already up to date are skipped.
+(15 s)
+
+files in the wiki after run 3: ['Source Catalog.md', 'index.md', 'wiki/Economics/Menu Pricing.md', 'wiki/Economics/Sunk Costs.md']
+same file list (no duplicates, no machine-style names): True
+Sunk Costs fingerprint unchanged: True | Menu Pricing regenerated: True
+backup of the replaced note: ['Menu Pricing 20260927-231915.md']

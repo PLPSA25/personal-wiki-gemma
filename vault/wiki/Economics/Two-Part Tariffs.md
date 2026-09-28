@@ -23,7 +23,7 @@ Two-part tariffs involve setting both a per-unit price and a fee, where the opti
 ## Key points
 
 - The optimal two-part tariff is P = MC and F = the consumer surplus at that price. ([[raw/Economics Lectures|Economics Lectures, Lecture 6]]; [[raw/Economics Lectures|Economics Lectures, Lecture 5]])
-- With MC = 0, P = 0 and F = $200 creates and captures all the value. ([[raw/Economics Lectures|Economics Lectures, Lecture 5]]; [[raw/Economics Lectures|Economics Lectures, Lecture 5]])
+- With MC = 0, P = 0 and F = $200 creates and captures all the value. ([[raw/Economics Lectures|Economics Lectures, Lecture 5]])
 - Two-part tariffs price at MC and take the surplus as a fee, limited by arbitrage, uncertainty and heterogeneity. ([[raw/Economics Lectures|Economics Lectures, Lecture 6]])
 - Monopoly power is the ability to move the market price; every firm sets MR = MC; price depends on marginal cost and demand, not fixed cost; a two-part tariff captures more than any single price. ([[raw/Economics Lectures|Economics Lectures, Lecture 5]])
 - With MR = P(1 + 1/e) (e being the elasticity of demand) the optimal price is P = MC / (1 + 1/e): more elastic demand means a lower markup. ([[raw/Economics Lectures|Economics Lectures, Lecture 5]])
