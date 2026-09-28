@@ -1,0 +1,7 @@
+# Messages for `wiki chat --script demo/chat-script.txt` (lines starting with # are ignored)
+what can you help me with?
+Draft a short three-step plan to revise for the Data & Decisions final.
+make that shorter
+According to my notes, what is opportunity cost?
+/search opportunity cost
+/exit

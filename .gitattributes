@@ -1,0 +1,4 @@
+# Keep the originals byte-for-byte identical (their SHA-256 is in the Source Catalog); never convert line endings
+vault/raw/** -text
+*.docx binary
+*.png binary

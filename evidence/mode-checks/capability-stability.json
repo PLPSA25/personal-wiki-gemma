@@ -1,0 +1,90 @@
+{
+ "note": "5 fresh sessions x 2 capability questions, real local Gemma, after the fix that says the student (not the assistant) types the commands",
+ "summary": {
+  "names_ask_and_search": "10/10",
+  "claims_it_can_run": "0/10",
+  "starting_point": "10/10"
+ },
+ "replies": [
+  {
+   "trial": 1,
+   "question": "what can you help me with?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas with you. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nTo get started, you could try 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 1,
+   "question": "what can we do?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nYou can use the terminal commands `wiki ask \"question\"` to get neutral answers with citations, or `wiki search \"words\"` to see the original passages.\n\nHow about starting with 'Explain A-B Testing from my notes'?"
+  },
+  {
+   "trial": 2,
+   "question": "what can you help me with?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas with you. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nTo get started, you could try 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 2,
+   "question": "what can we do?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nYou can use the terminal commands `wiki ask \"question\"` to get neutral answers with citations, or `wiki search \"words\"` to see the original passages.\n\nTry 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 3,
+   "question": "what can you help me with?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas with you. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nTo get started, you could try 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 3,
+   "question": "what can we do?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nYou can use the terminal commands `wiki ask \"question\"` to get neutral answers with citations, or `wiki search \"words\"` to see the original passages.\n\nHow about starting with 'Explain A-B Testing from my notes'?"
+  },
+  {
+   "trial": 4,
+   "question": "what can you help me with?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nTo get started, you could try 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 4,
+   "question": "what can we do?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat. You can also use the `/notes <message>` or `/search <words>` commands to interact with your notes.\n\nA good starting point is 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 5,
+   "question": "what can you help me with?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas with you. I can look things up in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nTo get started, you could try 'Explain A-B Testing from my notes'."
+  },
+  {
+   "trial": 5,
+   "question": "what can we do?",
+   "names_ask_and_search": true,
+   "claims_it_can_run": false,
+   "starting_point": true,
+   "reply": "I can help you brainstorm, draft, plan, and think through ideas. I can look things up in your notes, and you can use terminal commands like `wiki ask \"question\"` or `wiki search \"words\"` outside of this chat.\n\nA good starting suggestion is 'Explain A-B Testing from my notes'."
+  }
+ ]
+}

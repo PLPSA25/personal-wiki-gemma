@@ -1,0 +1,102 @@
+[
+  {
+    "id": "test-1",
+    "answer": "1,112 people is needed for a plus-or-minus 3 percentage point poll [S1].",
+    "checks": {
+      "expected_sources_retrieved": true,
+      "expected_section_rank": 1,
+      "behavior_matches": true,
+      "actual_behavior": "answer",
+      "answer_contains_ok": true,
+      "answer_avoids_ok": true,
+      "format_clean": true,
+      "citation_status": "ok",
+      "passed": true
+    },
+    "model": {
+      "runtime": "ollama",
+      "model": "gemma4:e2b",
+      "ollama_version": "0.34.3",
+      "quantization": "Q4_K_M",
+      "parameter_size": "5.1B",
+      "family": "gemma4",
+      "digest": "7fbdbf8f5e45a75bb122155ed546e765b4d9c53a1285f62fd9f506baa1c5a47e"
+    },
+    "seconds": 38.0
+  },
+  {
+    "id": "test-2",
+    "answer": "A monopolist't just keep producing until price equals marginal cost because a monopolist's extra unit cuts the price on all units, resulting in marginal revenue being less than the price, meaning the monopolist produces less than the market demands [S4].",
+    "checks": {
+      "expected_sources_retrieved": true,
+      "expected_section_rank": 4,
+      "behavior_matches": true,
+      "actual_behavior": "answer",
+      "answer_contains_ok": true,
+      "answer_avoids_ok": true,
+      "format_clean": true,
+      "citation_status": "ok",
+      "passed": true
+    },
+    "model": {
+      "runtime": "ollama",
+      "model": "gemma4:e2b",
+      "ollama_version": "0.34.3",
+      "quantization": "Q4_K_M",
+      "parameter_size": "5.1B",
+      "family": "gemma4",
+      "digest": "7fbdbf8f5e45a75bb122155ed546e765b4d9c53a1285f62fd9f506baa1c5a47e"
+    },
+    "seconds": 64.1
+  },
+  {
+    "id": "test-3",
+    "answer": "To price differently across groups, a seller must (1) identify types, (2) separate them by actually charging different prices, and (3) prevent arbitrage [S2]. The three conditions for this are identifying the groups, charging different prices, and preventing resale [S2].\n\nThe Netflix example satisfies these conditions as follows:\n1. **Identification:** Netflix identifies groups through account and subscription history [S3].\n2. **Charging Different Prices:** Netflix offers a lower price to former subscribers compared to current subscribers [S1, S3].\n3. **Preventing Arbitrage:** Arbitrage is difficult because the offer is tied to a specific account, which limits resale or transfer [S3].",
+    "checks": {
+      "expected_sources_retrieved": true,
+      "expected_section_rank": 2,
+      "behavior_matches": true,
+      "actual_behavior": "answer",
+      "answer_contains_ok": true,
+      "answer_avoids_ok": true,
+      "format_clean": true,
+      "citation_status": "warning",
+      "passed": true
+    },
+    "model": {
+      "runtime": "ollama",
+      "model": "gemma4:e2b",
+      "ollama_version": "0.34.3",
+      "quantization": "Q4_K_M",
+      "parameter_size": "5.1B",
+      "family": "gemma4",
+      "digest": "7fbdbf8f5e45a75bb122155ed546e765b4d9c53a1285f62fd9f506baa1c5a47e"
+    },
+    "seconds": 56.7
+  },
+  {
+    "id": "test-4",
+    "answer": "Insufficient evidence: the wiki does not contain the information needed to answer this question.",
+    "checks": {
+      "expected_sources_retrieved": null,
+      "expected_section_rank": null,
+      "behavior_matches": true,
+      "actual_behavior": "insufficient_evidence",
+      "answer_contains_ok": true,
+      "answer_avoids_ok": true,
+      "format_clean": true,
+      "citation_status": "ok",
+      "passed": true
+    },
+    "model": {
+      "runtime": "ollama",
+      "model": "gemma4:e2b",
+      "ollama_version": "0.34.3",
+      "quantization": "Q4_K_M",
+      "parameter_size": "5.1B",
+      "family": "gemma4",
+      "digest": "7fbdbf8f5e45a75bb122155ed546e765b4d9c53a1285f62fd9f506baa1c5a47e"
+    },
+    "seconds": 44.6
+  }
+]

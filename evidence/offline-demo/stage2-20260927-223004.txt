@@ -1,0 +1,44 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260927223004
+Username: <computer>\<user>
+RunAs User: <computer>\<user>
+Configuration Name: 
+Machine: <computer> (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File demo\offline-demo.ps1 -Stage 2
+Process ID: 12412
+PSVersion: 5.1.26100.9457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9457
+BuildVersion: 10.0.26100.9457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+=== Stage 2: device and time ===
+2026-09-27 22:30:04 -07:00
+OS: Microsoft Windows 11 Home 10.0.26200 | CPU: Snapdragon X Plus (8-core) @ 3.30 GHz | RAM: 15.6 GB total, 3.3 GB free
+
+=== Proof that the internet is disconnected (these checks must FAIL) ===
+TCP 1.1.1.1:443 reachable: False
+>> TerminatingError(Resolve-DnsName): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: example.com : No DNS servers configured for local system"
+DNS example.com: could not resolve (offline)
+>> TerminatingError(Invoke-WebRequest): "The remote name could not be resolved: 'example.com'"
+HTTPS example.com: unreachable (offline)
+OFFLINE CONFIRMED
+
+=== Restart the local model server and the CLI ===
+
+
+
+=== The four ask-mode tests (cards saved under evidence\ask-tests\offline-20260927-223004) ===
+
+
+Stage 2 done. Transcript: C:\dev\Personal Wiki\evidence\offline-demo\stage2-20260927-223004.txt
+**********************
+Windows PowerShell transcript end
+End time: 20260927223403
+**********************
+

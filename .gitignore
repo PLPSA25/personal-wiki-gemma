@@ -1,0 +1,19 @@
+# Environment
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Machine-generated files (rebuilt by `wiki ingest`); never inside the vault
+data/
+
+# Model weights and secrets must never be committed
+*.gguf
+*.safetensors
+.env
+
+# Obsidian per-user workspace state
+vault/.obsidian/workspace*.json
+
+# Course material that is not ours to publish
+Assignment*.pdf

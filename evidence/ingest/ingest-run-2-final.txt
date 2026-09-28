@@ -1,0 +1,33 @@
+Ingesting 27 notes with gemma4:e2b locally. This takes a while on a CPU; notes that are already up to date are skipped.
+[1/27] Opportunity Cost: written - 7 passages, 5 key points, 2 links (91 s)
+[2/27] Sunk Costs: written - 6 passages, 6 key points, 2 links (68 s)
+[3/27] Relevant Cost: written - 6 passages, 6 key points, 2 links (67 s)
+[4/27] Cost Disease: written - 6 passages, 5 key points, 3 links (66 s)
+[5/27] Supply and Demand: written - 6 passages, 6 key points, 1 links (84 s)
+[6/27] Elasticity of Demand: written - 6 passages, 6 key points, 4 links (75 s)
+[7/27] Monopoly Pricing: written - 6 passages, 6 key points, 3 links (73 s)
+[8/27] Two-Part Tariffs: written - 6 passages, 5 key points, 2 links (69 s)
+[9/27] Group Pricing: written - 6 passages, 6 key points, 2 links (89 s)
+[10/27] Menu Pricing: written - 6 passages, 6 key points, 3 links (65 s)
+[11/27] Long-Run Competition: written - 6 passages, 5 key points, 3 links (69 s)
+[12/27] Durable Advantage: written - 6 passages, 6 key points, 1 links (72 s)
+[13/27] Decision Trees: written - 6 passages, 6 key points, 2 links (68 s)
+[14/27] Value of Information: written - 6 passages, 5 key points, 3 links (70 s)
+[15/27] Option Value: written - 6 passages, 6 key points, 1 links (71 s)
+[16/27] Sampling Methods: written - 6 passages, 6 key points, 1 links (65 s)
+[17/27] Sampling Bias: written - 6 passages, 6 key points, 1 links (63 s)
+[18/27] Standard Error: written - 6 passages, 5 key points, 2 links (69 s)
+[19/27] Control Limits: written - 6 passages, 6 key points, 3 links (70 s)
+[20/27] Type I and Type II Errors: written - 6 passages, 6 key points, 3 links (65 s)
+[21/27] Confidence Intervals: written - 6 passages, 6 key points, 4 links (72 s)
+[22/27] Hypothesis Testing: written - 6 passages, 6 key points, 3 links (76 s)
+[23/27] A-B Testing: written - 6 passages, 6 key points, 2 links (70 s)
+[24/27] Linear Regression: written - 7 passages, 6 key points, 2 links (100 s)
+[25/27] Omitted Variable Bias: written - 7 passages, 5 key points, 3 links (93 s)
+[26/27] Causal Inference: written - 6 passages, 6 key points, 2 links (62 s)
+[27/27] AuraTech Case: written - 8 passages, 6 key points, 2 links (89 s)
+    dropped from 'Durable Advantage': related link not in the plan: 'Monopolistic competition'
+    dropped from 'Option Value': related link not in the plan: 'Sunk costs'
+    dropped from 'Standard Error': related link not in the plan: 'Margin of error'
+Done in 1995 s: 27 written. Indexed 114 passages. Updated C:\dev\Personal Wiki\vault\index.md and the Source Catalog.
+exit code: 0

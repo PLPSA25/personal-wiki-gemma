@@ -1,0 +1,200 @@
+# The wiki plan: which pages exist and where their evidence comes from.
+# Drafted by Claude from the sources, to be approved (edited) by the student BEFORE `wiki ingest` runs.
+# Gemma writes each page from the passages this plan gathers; it never decides which pages exist or
+# what they are called. Titles become file names, so they are short (2-6 words) and match the page heading.
+
+# ---------------------------------------------------------------- sources (for the source catalog)
+[[source]]
+file = "Economics Lectures.md"
+description = "Own-words summary of the nine MBA 201A microeconomics lectures (Fall A 2026). The slides are not included."
+origin = "Written from lecture slides with Claude's help"
+
+[[source]]
+file = "Data and Decisions Lectures.md"
+description = "Own-words summary of the ten MBA 200S Data & Decisions lectures (Fall A 2026). The slides are not included."
+origin = "Written from lecture slides with Claude's help"
+
+[[source]]
+file = "Sunk Cost Reasoning.docx"
+description = "Example in the Wild 1: a sunk-cost mistake seen at work."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "Relevant Cost.docx"
+description = "Example in the Wild 2: isolating the relevant cost of a decision."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "Supply and Demand Shocks.docx"
+description = "Example in the Wild 3: a real supply or demand shock."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "Group Pricing.docx"
+description = "Example in the Wild 5: an example of group (third-degree) price discrimination."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "Menu Pricing.docx"
+description = "Example in the Wild 6: an example of menu (second-degree) price discrimination."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "Durable Advantage.docx"
+description = "Example in the Wild 7: a business whose profits last."
+origin = "My own Word document, unchanged"
+
+[[source]]
+file = "AuraTech Case.docx"
+description = "Data & Decisions case, Part B: interpreting a regression's intercept and slope."
+origin = "My own Word document, unchanged"
+
+# ---------------------------------------------------------------- Economics concepts
+[[concept]]
+title = "Opportunity Cost"
+topic = "Economics"
+query = "opportunity cost economic cost accounting cost forgone alternative"
+also_from = ["Relevant Cost.docx"]
+
+[[concept]]
+title = "Sunk Costs"
+topic = "Economics"
+query = "sunk cost fallacy unchangeable past spent ignore"
+also_from = ["Sunk Cost Reasoning.docx"]
+
+[[concept]]
+title = "Relevant Cost"
+topic = "Economics"
+query = "relevant cost marginal cost avoidable shared overhead fallacy fixed cost"
+also_from = ["Relevant Cost.docx"]
+
+[[concept]]
+title = "Cost Disease"
+topic = "Economics"
+query = "cost disease Baumol productivity wages labor-intensive"
+
+[[concept]]
+title = "Supply and Demand"
+topic = "Economics"
+query = "supply demand equilibrium shift comparative statics excess demand shock"
+also_from = ["Supply and Demand Shocks.docx"]
+
+[[concept]]
+title = "Elasticity of Demand"
+topic = "Economics"
+query = "elasticity demand elastic inelastic price responsiveness percent change"
+
+[[concept]]
+title = "Monopoly Pricing"
+topic = "Economics"
+query = "monopoly monopolist price maker marginal revenue MR = MC value-based pricing Lerner"
+
+[[concept]]
+title = "Two-Part Tariffs"
+topic = "Economics"
+query = "two-part tariff entry fee per-unit price consumer surplus Costco Disney"
+
+[[concept]]
+title = "Group Pricing"
+topic = "Economics"
+query = "group pricing segment third-degree price discrimination identify separate arbitrage"
+also_from = ["Group Pricing.docx"]
+
+[[concept]]
+title = "Menu Pricing"
+topic = "Economics"
+query = "menu pricing versioning bundling quantity discounts second-degree price discrimination self-select"
+also_from = ["Menu Pricing.docx"]
+
+[[concept]]
+title = "Long-Run Competition"
+topic = "Economics"
+query = "perfect competition long run zero profit free entry monopolistic competition differentiated"
+
+[[concept]]
+title = "Durable Advantage"
+topic = "Economics"
+query = "durable advantage copy imitation entry barriers profits competed away"
+also_from = ["Durable Advantage.docx"]
+
+[[concept]]
+title = "Decision Trees"
+topic = "Economics"
+query = "decision tree expected value backward chance node decision node"
+
+[[concept]]
+title = "Value of Information"
+topic = "Economics"
+query = "value of information pivotal envelope Merck experiment"
+
+[[concept]]
+title = "Option Value"
+topic = "Economics"
+query = "option value irreversible waiting flexibility one-way door Diablo Canyon"
+
+# ---------------------------------------------------------------- Data Analysis concepts
+[[concept]]
+title = "Sampling Methods"
+topic = "Data Analysis"
+query = "simple random sample stratified cluster sampling frame survey population census"
+
+[[concept]]
+title = "Sampling Bias"
+topic = "Data Analysis"
+query = "sampling bias selection frame self-selection survivorship convenience measurement nonresponse"
+
+[[concept]]
+title = "Standard Error"
+topic = "Data Analysis"
+query = "standard error sample mean sampling variation square root central limit theorem"
+
+[[concept]]
+title = "Control Limits"
+topic = "Data Analysis"
+query = "control limits quality control process HALT stop machines sample average"
+
+[[concept]]
+title = "Type I and Type II Errors"
+topic = "Data Analysis"
+query = "Type I Type II error false positive false negative significance level power"
+
+[[concept]]
+title = "Confidence Intervals"
+topic = "Data Analysis"
+query = "confidence interval margin of error t distribution critical value plausible values"
+
+[[concept]]
+title = "Hypothesis Testing"
+topic = "Data Analysis"
+query = "hypothesis test null alternative p-value t statistic reject two-sample"
+
+[[concept]]
+title = "A-B Testing"
+topic = "Data Analysis"
+query = "A/B test experiment randomized control trial treatment control p-hacking replication"
+
+[[concept]]
+title = "Linear Regression"
+topic = "Data Analysis"
+query = "regression linear slope intercept residuals R-squared least squares prediction interval"
+also_from = ["AuraTech Case.docx"]
+
+[[concept]]
+title = "Omitted Variable Bias"
+topic = "Data Analysis"
+query = "omitted variable bias partial slope marginal slope confounding controls"
+also_from = ["AuraTech Case.docx"]
+
+[[concept]]
+title = "Causal Inference"
+topic = "Data Analysis"
+query = "causal inference counterfactual randomization confounding correlation causation predictive question"
+
+# ---------------------------------------------------------------- Cases (one page per case document)
+# The Uber case document is intentionally not part of this wiki: it contained a private local file path.
+[[concept]]
+title = "AuraTech Case"
+topic = "Cases"
+query = "AuraTech AI estimated value hammer price intercept slope lot"
+sources = ["AuraTech Case.docx"]
+limit = 8

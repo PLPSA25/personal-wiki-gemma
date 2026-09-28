@@ -1,0 +1,63 @@
+[
+  {
+    "check": "A (what can you help me with?)",
+    "verdict": "PASS",
+    "checks": {
+      "no notes search": true,
+      "no citations": true,
+      "no insufficient-evidence refusal": true,
+      "mentions the real commands (ask and search)": true,
+      "suggests a starting point": true,
+      "non-empty": true
+    }
+  },
+  {
+    "check": "A (what can we do?)",
+    "verdict": "FAIL",
+    "checks": {
+      "no notes search": true,
+      "no citations": true,
+      "no insufficient-evidence refusal": true,
+      "mentions the real commands (ask and search)": false,
+      "suggests a starting point": true,
+      "non-empty": true
+    }
+  },
+  {
+    "check": "B (follow-up)",
+    "verdict": "PASS",
+    "checks": {
+      "draft without notes search": true,
+      "first reply is an actual draft (a list)": true,
+      "follow-up without notes search": true,
+      "follow-up is shorter": true,
+      "follow-up keeps the topic of the draft": true
+    }
+  },
+  {
+    "check": "C (notes turn)",
+    "verdict": "PASS",
+    "checks": {
+      "notes searched": true,
+      "reply cites a passage": true,
+      "no unknown citations": true
+    }
+  },
+  {
+    "check": "D (search)",
+    "verdict": "PASS",
+    "checks": {
+      "returned passages": true,
+      "model calls": true,
+      "passages are original text": true
+    }
+  },
+  {
+    "check": "E (boundary)",
+    "verdict": "PASS",
+    "checks": {
+      "ask says insufficient evidence": true,
+      "answer does not contain the chat claim": true
+    }
+  }
+]

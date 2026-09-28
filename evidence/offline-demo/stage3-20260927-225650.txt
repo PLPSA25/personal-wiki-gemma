@@ -1,0 +1,159 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260927225650
+Username: <computer>\<user>
+RunAs User: <computer>\<user>
+Configuration Name: 
+Machine: <computer> (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File demo\offline-demo.ps1 -Stage 3
+Process ID: 25392
+PSVersion: 5.1.26100.9457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9457
+BuildVersion: 10.0.26100.9457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+=== Stage 3: device and time ===
+2026-09-27 22:56:50 -07:00
+OS: Microsoft Windows 11 Home 10.0.26200 | CPU: Snapdragon X Plus (8-core) @ 3.30 GHz | RAM: 15.6 GB total, 3.0 GB free
+
+=== Proof that the internet is disconnected (these checks must FAIL) ===
+TCP 1.1.1.1:443 reachable: False
+>> TerminatingError(Resolve-DnsName): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: example.com : No DNS servers configured for local system"
+DNS example.com: could not resolve (offline)
+>> TerminatingError(Invoke-WebRequest): "The remote name could not be resolved: 'example.com'"
+HTTPS example.com: unreachable (offline)
+OFFLINE CONFIRMED
+
+=== Restart the local model server and the CLI ===
+
+
+
+=== Chat, search and boundary checks (saved under evidence\mode-checks\offline-20260927-225650) ===
+A (what can you help me with?): PASS
+A (what can we do?): PASS
+B (follow-up): PASS
+C (notes turn): PASS
+D (search): PASS
+E (boundary): PASS
+Saved C:\dev\Personal Wiki\evidence\mode-checks\offline-20260927-225650\transcript.md (6/6 passed)
+
+=== A short scripted chat through the real CLI ===
+Chat (mode: local | model: gemma4:e2b | assistant: Scout). /help for commands, /exit to leave.
+you> what can you help me with?
+scout> I can help you brainstorm, draft, plan, and think through ideas. I can look up information in your notes, and you can use terminal commands like `wiki ask "question"` or `wiki search "words"` outside of this chat.
+
+To get started, you could try 'Draft a study plan for the final'.
+  [conversation: a question about the assistant itself]
+  [no notes were searched or cited for this reply]
+  [10.7 s]
+you> Draft a short three-step plan to revise for the Data & Decisions final.
+scout> Here is a short three-step plan for revising for the Data & Decisions final:
+
+1. Review the core concepts in Data Analysis.
+2. Practice applying these concepts to case examples.
+3. Focus on the connections between the different modules.
+
+Suggestion: We can flesh out step one based on what's in your notes.
+  [conversation: a drafting, planning or brainstorming request]
+  [no notes were searched or cited for this reply]
+  [5.1 s]
+you> make that shorter
+scout> Here is a shorter, three-step plan:
+
+1. Review Data Analysis concepts.
+2. Practice with case examples.
+3. Connect module concepts.
+  [conversation: a follow-up on the previous reply]
+  [no notes were searched or cited for this reply]
+  [1.6 s]
+you> According to my notes, what is opportunity cost?
+scout> Opportunity cost is the value of the most highly valued alternative that you give up when making a choice. [S1]
+  [notes searched: you referred to your notes; best match score 5.8]
+  [notes cited: [S1] Economics Lectures.md > Lecture 2: The Concept of Economic Cost]
+  [24.8 s]
+you> /search opportunity cost
+Search (local index, no model): "opportunity cost" -> 5 passage(s)
+
+[1] Economics Lectures.md > Lecture 2: The Concept of Economic Cost
+    Economics Lectures.md#6, lines 52-59, score 5.78
+    **Economic versus accounting cost.** An accountant measures all expenditures and allocates them across activities, which is
+    useful for understanding what has happened. Economic cost is forward looking and depends on the value of alternatives:
+    economic cost = expenditure (accounting cost) - sunk costs + opportunity costs.
+
+    **Opportunity cost.** The opportunity cost of an action is the value of the most highly valued alternative given up. Making
+    guacamole for $10 of ingredients instead of buying it for $20 only saves money if your hour of time is worth less than $10.
+    Opportunity cost of time is a relevant economic cost. Nothing you own is free: the Tokyo firm's basement farm costs its
+    expenditure plus the profit forgone from the next best use of that real estate.
+
+[2] Economics Lectures.md > Lecture 2: The Concept of Economic Cost
+    Economics Lectures.md#8, lines 73-81, score 3.72
+    **Inventory.** An item's economic cost is its replacement cost if you will need another unit, or its resale value if not;
+    the price you paid is sunk. A bike shop that bought at $750 while the price rose to $1,000 should treat $1,000 as its cost.
+    The same logic applies to businesses stocking up ahead of tariffs: if they will restock at the tariffed price, they should
+    raise prices now.
+
+    **Cost disease (Baumol).** When productivity in a sector does not keep pace with rising wages elsewhere, its costs climb.
+    Playing a Beethoven quartet takes the same 2.66 hours as in 1826, but the opportunity cost of that labor is about 23 times
+    higher (real wages from $1.14 to $26.44). Higher education, health care, the performing arts and personal services are
+    affected; fast technology growth and the ability to shift inputs protect against it.
+
+[3] Data and Decisions Lectures.md > Lecture 1: Introduction to Data and Decisions
+    Data and Decisions Lectures.md#4, lines 29-37, score 3.69
+    **Opportunities and threats.** Opportunities include price discrimination (identifying price-inelastic demand) and real-time
+    data such as geolocated credit-card spending and small-business revenue around the COVID shock. Threats include loss of privacy
+    and weaknesses such as spurious correlations and overfitting. The tools carry into other core courses: data analytics and causal
+    inference, economics (estimating demand), leading people, finance (CAPM, abnormal returns) and marketing.
+
+    **Course logistics.** The course is interactive with cold calling from random lists (ungraded, a way to learn about simple random
+    sampling). Grading: 10% attendance, 40% cumulative final exam (one-page cheat sheet, front and back) and 50% group deliverables. The
+    optional textbook is Stine and Foster. Exams reward communicating results in concise, well-argued responses and intuition, not
+    memorizing formulas. Excel with the Analysis Toolpak is the minimum software; Stata, R, Matlab and Python are allowed.
+
+[4] Economics Lectures.md > Lecture 2: The Concept of Economic Cost
+    Economics Lectures.md#9, lines 83-93, score 3.61
+    **Sunk costs and institutions.** Kodak invented much of digital photography yet could not pivot after dominating film.
+    Sunk-cost thinking can be psychological (loss aversion, fear of admitting a mistake) but also institutional, since divisions
+    fight to justify their existence. Related idea: counter positioning, where incumbents cannot copy a new model without
+    damaging their existing business. Taking an outsider's view helps.
+
+    **Transfer pricing.** If Azure sells a unit externally for $100 and it costs $30 to make, an internal team that values it at
+    $60 should be charged the opportunity cost: $100 when capacity binds, $30 when capacity is slack. The answer is "it depends."
+
+    **Cost of capital.** Investors' next-best return is a real cost that never appears on the income statement. A firm with $5m
+    of accounting profit on $100m of capital with an 8% cost of capital has economic profit of $5m - $8m = -$3m: positive
+    accounting profit but value destroyed. In the long run (Lecture 8) competition pushes economic profit to zero.
+
+[5] Economics Lectures.md > Lecture 1: Competitive Markets
+    Economics Lectures.md#2, lines 9-18, score 3.51
+    **Why microeconomics.** Smart people fall into predictable traps: "we already put $2 billion in, we can't walk away" (sunk
+    cost), "the division is profitable on the income statement" (accounting profit is not economic profit), "the warehouse is
+    ours, so it is free" (owned resources still have an opportunity cost), and "we charge cost plus a fair markup" (price on
+    value, not cost). They also hold predictable bad beliefs: a supplier doubling prices is "gouging" (prices move when scarcity
+    moves), "costs went up so we pass it along" (the market decides pass-through), "we are the only game in town" (demand still
+    constrains a monopolist), and "there is plenty of business for everyone" (one hungry rival undercutting erodes margins to
+    cost). The course promises to cut through this confusion.
+
+    **Force-Trap-Edge.** Every big idea in the course has three parts: a Force (how the world works), a Trap (the expensive
+    mistake made by ignoring it) and an Edge (the value you can create or capture by using it). Gravity is the worked example.
+
+you> /exit
+
+=== Memory in use by the model ===
+
+
+ProcessName  WorkingSetGB PrivateGB
+-----------  ------------ ---------
+llama-server         3.16      3.75
+Available RAM (GB): 3.12
+
+Stage 3 done. Transcript: C:\dev\Personal Wiki\evidence\offline-demo\stage3-20260927-225650.txt
+**********************
+Windows PowerShell transcript end
+End time: 20260927230006
+**********************
+

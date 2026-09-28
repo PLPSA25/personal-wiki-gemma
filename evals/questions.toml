@@ -1,0 +1,43 @@
+# Answer key for the four ask-mode tests. Lives OUTSIDE vault/ so the harness can never retrieve it.
+# Written 2026-09-27, before any retrieval code existed. Do not edit after seeing results; add a new
+# entry (and keep the old one) if a question has to change.
+
+[[question]]
+id = "test-1"
+kind = "direct"
+question = "What sample size guarantees a margin of error of plus or minus 3 percentage points in a political poll?"
+expected_behavior = "answer"
+expected_sources = ["Data and Decisions Lectures.md"]
+expected_section = "Lecture 5: Confidence Intervals and Hypothesis Testing"
+expected_passage = "a plus-or-minus 3 percentage point poll needs 1/(0.03 squared) = 1,112 people"
+answer_must_contain = ["1,112"]
+
+[[question]]
+id = "test-2"
+kind = "reworded"
+question = "Why can't a monopolist just keep producing until price equals marginal cost?"
+expected_behavior = "answer"
+expected_sources = ["Economics Lectures.md"]
+expected_section = "Lecture 5: Introduction to Monopoly"
+expected_passage = "the price-taker golden rule is wrong for a price maker: an extra unit cuts the price on all units, so marginal revenue is below price; the rule is MR = MC"
+answer_must_contain = ["marginal revenue"]
+
+[[question]]
+id = "test-3"
+kind = "two-sources"
+question = "What three conditions must hold for group pricing, and how does the Netflix example satisfy them?"
+expected_behavior = "answer"
+expected_sources = ["Economics Lectures.md", "Group Pricing.docx"]
+expected_section = "Lecture 6: Price Discrimination, Part I: Segment (Group) Pricing"
+expected_passage = "identify types, separate them, prevent arbitrage (Lecture 6); Netflix identifies former subscribers by account history, offers them a lower price, and ties the offer to one account (Group Pricing.docx)"
+answer_must_contain = ["identify", "arbitrage", "Netflix"]
+
+[[question]]
+id = "test-4"
+kind = "unsupported"
+question = "When is the MBA 201A final exam?"
+expected_behavior = "insufficient_evidence"
+expected_sources = []
+expected_section = ""
+expected_passage = "None. The sources give the final exam's weight (20% of the grade) but no date."
+answer_must_not_contain = ["December", "November", "October", "May", "August"]

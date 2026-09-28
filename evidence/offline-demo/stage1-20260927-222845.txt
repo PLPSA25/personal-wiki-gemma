@@ -1,0 +1,93 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260927222845
+Username: <computer>\<user>
+RunAs User: <computer>\<user>
+Configuration Name: 
+Machine: <computer> (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File demo\offline-demo.ps1 -Stage 1
+Process ID: 11540
+PSVersion: 5.1.26100.9457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9457
+BuildVersion: 10.0.26100.9457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+=== Stage 1: device and time ===
+2026-09-27 22:28:45 -07:00
+OS: Microsoft Windows 11 Home 10.0.26200 | CPU: Snapdragon X Plus (8-core) @ 3.30 GHz | RAM: 15.6 GB total, 0.8 GB free
+
+=== Proof that the internet is disconnected (these checks must FAIL) ===
+TCP 1.1.1.1:443 reachable: False
+>> TerminatingError(Resolve-DnsName): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: example.com : No DNS servers configured for local system"
+DNS example.com: could not resolve (offline)
+>> TerminatingError(Invoke-WebRequest): "The remote name could not be resolved: 'example.com'"
+HTTPS example.com: unreachable (offline)
+OFFLINE CONFIRMED
+
+=== Restart the local model server and the CLI ===
+NAME          ID              SIZE      MODIFIED
+gemma4:e2b    7fbdbf8f5e45    7.2 GB    5 days ago
+wiki 0.1.0
+
+=== wiki --help ===
+  wiki index
+  wiki search "margin of error poll"
+  wiki search "group pricing" --limit 3
+  wiki ask "What is the golden rule for a price-taking firm?" --mode local
+
+Local mode is the only mode: the model runs on this computer through Ollama (start it with
+"ollama serve"; download the model once with "ollama pull gemma4:e2b"). Nothing leaves the machine.
+
+=== Ingest a source (in a scratch copy of the project, so the real wiki is untouched) ===
+
+ingest wall time: 31.6 s
+---
+title: Sunk Costs
+topic: Economics
+status: draft
+description: Sunk cost reasoning occurs when past investments influence future decisions, even when those investments are no longer relevant.
+source_files:
+- Sunk Cost Reasoning.docx
+source_passages:
+- Sunk Cost Reasoning.docx#1
+generated_by: gemma4:e2b (Q4_K_M)
+generated_at: '2026-09-27'
+fingerprint: 0e671cad7f66a51195a5c08051eda65408726dd1d9639908ca060cb6241ef100
+body_sha256: 83e070cb0e2603c8c252850dee6b655d394e62972dc82121a033a3cfab49de80
+---
+
+# Sunk Costs
+
+Sunk cost reasoning occurs when past investments influence future decisions, even when those investments are no longer relevant. This behavior is reinforced by institutional factors like organizational inertia and reputation, rather than being purely a psychological bias. Addressing this involves changing the decision-making process to evaluate options based only on future costs and benefits.
+
+## Key points
+
+- Past investments should not affect future decisions. ([[raw/Sunk Cost Reasoning.docx|Sunk Cost Reasoning]])
+- Organizations often continue investing in legacy IT systems because of the resources and organizational effort already committed to them. ([[raw/Sunk Cost Reasoning.docx|Sunk Cost Reasoning]])
+- Managers often felt that their reputations were tied to earlier decisions. ([[raw/Sunk Cost Reasoning.docx|Sunk Cost Reasoning]])
+- Major previous investments could be reviewed by an independent third-party team that was not involved in the original decision. ([[raw/Sunk Cost Reasoning.docx|Sunk Cost Reasoning]])
+
+## Related notes
+
+- (none identified)
+
+## Sources
+
+- [[raw/Sunk Cost Reasoning.docx|Sunk Cost Reasoning]] - Sunk Cost Reasoning (lines 1-7)
+--- ingest again: nothing should be rewritten ---
+
+
+=== Search (no model) ===
+
+
+Stage 1 done. Transcript: C:\dev\Personal Wiki\evidence\offline-demo\stage1-20260927-222845.txt
+**********************
+Windows PowerShell transcript end
+End time: 20260927222943
+**********************
+

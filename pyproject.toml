@@ -1,0 +1,25 @@
+[project]
+name = "personal-wiki"
+version = "0.1.0"
+description = "Offline personal wiki CLI: local Gemma + retrieval (chat, ask, search, ingest)"
+requires-python = ">=3.12"
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+wiki = "wiki.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["live: needs a running local Ollama with the Gemma model (deselect with -m 'not live')"]
+addopts = "-m 'not live'"
