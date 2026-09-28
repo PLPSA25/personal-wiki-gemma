@@ -39,7 +39,7 @@ Status: **Done** = met and evidenced; **Partly** = met with a stated limit or wi
 | Source references accessible from each note; check all links and references | Done | `## Sources` in every note; automated link check (no broken or self links); README link check |
 | Graph with readable labels, filter recorded, attachments hidden | Done | `graph.png`; filter `path:wiki/`, attachments off (also in `vault/.obsidian/graph.json`) |
 | Ingest the same source again: updates the intended notes only, no duplicates, no machine-style names | Done | `evidence/ingest/reingest-demo.txt` (real Gemma: unchanged run rewrites nothing; changing one source regenerates only its note; same file list); real vault: `27 up to date` in 0 s |
-| Obsidian screenshots: show the **source catalog**, and **trace one note through a related note back to its original evidence** | **Open** | The Source Catalog exists and the trace path is written in the README, but the two screenshots (`source-catalog.png`, `trace.png`) still have to be taken |
+| Obsidian screenshots: show the **source catalog**, and **trace one note through a related note back to its original evidence** | Done (one small gap) | `evidence/screenshots/source-catalog.png` (all 9 originals with fingerprints and citing notes) and `trace.png` (the related note `Two-Part Tariffs`, reached from `Group Pricing`, with its links back and its Sources list into `Economics Lectures`). The final landing in the original file after clicking a Sources link is not captured in a screenshot. |
 
 ## Tests and evaluation
 | Requirement | Status | Evidence / note |
@@ -77,6 +77,6 @@ Status: **Done** = met and evidenced; **Partly** = met with a stated limit or wi
 
 ## What is still open
 1. ~~Terminal recording~~ provided (29 s, condensed). Optional: screenshots or a longer recording if a grader needs to see each command run in real time.
-2. **Two Obsidian screenshots:** `source-catalog.png` and `trace.png`.
+2. ~~Two Obsidian screenshots~~ provided (`source-catalog.png`, `trace.png`). Optional: one more screenshot of the landing in `vault/raw/Economics Lectures.md` after clicking a Sources link.
 3. **Student confirmation** of the ask-test assessments and of the wiki review (only Group Pricing was reviewed by the student so far).
 4. **Submit the URL** in the course portal.
